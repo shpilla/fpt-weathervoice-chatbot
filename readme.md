@@ -18,8 +18,7 @@ OPENAI_API_KEY (https://platform.openai.com/account/api-keys)
 5. Reply to user with trascription (aiogram)
 
 
-**Weather conversational manner**
-
+**Weather conversation**
 0. Set up langchain with OpenAI model with a OpenWeatherMap agent (langchain on startup)
 1. Query the agent with text from user message (langchain)
 2. Reply to user with agent's response (aiogram)
