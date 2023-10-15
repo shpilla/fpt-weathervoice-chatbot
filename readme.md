@@ -10,6 +10,9 @@ BOT_TOKEN (https://t.me/botfather)
 OPENAI_API_KEY (https://platform.openai.com/account/api-keys)
 
 
+
+
+
 ### How it works?
 **Audio transciption**
 
@@ -18,8 +21,6 @@ OPENAI_API_KEY (https://platform.openai.com/account/api-keys)
 3. Send created .mp3 file to Whisper API for transcription (openai)
 4. Remove temporary stored .ogg and .mp3 files (os)
 5. Reply to user with trascription (aiogram)
-
-
 
 **Weather conversation**
 
