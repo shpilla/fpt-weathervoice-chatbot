@@ -4,6 +4,7 @@ Aiogram 3.x -based Telegram chatbot that can do two things:
 
 ### Enviromental variables to be set prior to execution
 OPENWEATHERMAP_API_KEY (https://home.openweathermap.org/api_keys)
+
 BOT_TOKEN (https://t.me/botfather)
 OPENAI_API_KEY (https://platform.openai.com/account/api-keys)
 
