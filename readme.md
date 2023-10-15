@@ -2,12 +2,13 @@ Aiogram 3.x -based Telegram chatbot that can do two things:
 1. Transcribe direct voice messages using OpenAI's Whisper API
 2. Give weather info based on OpenWeatherMap in a conversational manner. Context not managed.
 
-###### Enviromental variables to be set prior to execution**
+###### Enviromental variables to be set prior to execution
 OPENWEATHERMAP_API_KEY (https://home.openweathermap.org/api_keys)
 BOT_TOKEN (https://t.me/botfather)
 OPENAI_API_KEY (https://platform.openai.com/account/api-keys)
 
-###### How it works?**
+
+###### How it works?
 **Audio transciption**
 1. Download .ogg audio file recieved in a voice message (aiogram)
 2. Covert .ogg to .mp3 (pydub). Mandatory step as Whisper API does not accept .ogg files
